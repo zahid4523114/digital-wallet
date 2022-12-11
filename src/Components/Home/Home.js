@@ -68,13 +68,13 @@ const Home = () => {
           <div>
             <button
               onClick={() => setChangeTable(true)}
-              className="btn bg-secondary  me-lg-3 me-0 my-lg-0 my-3 text-white"
+              className="btn btn-primary me-lg-3 me-0 my-lg-0 my-3 text-white"
             >
               ETH Transaction History
             </button>
             <button
               onClick={() => setChangeTable(false)}
-              className="btn bg-secondary  text-white"
+              className="btn btn-primary  text-white"
             >
               TestLink Transaction History
             </button>
