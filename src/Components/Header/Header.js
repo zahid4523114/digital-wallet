@@ -1,21 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import WalletModal from "../ConnectWalletModal/WalletModal";
-import logo1 from "../../images/Arbitrum-logo.png";
-import logo2 from "../../images/Avalanche-AVAX-The-Giving-Block.png";
-import logo3 from "../../images/Binance_Logo.svg.png";
-import logo4 from "../../images/ethicon.webp";
-import logo5 from "../../images/Fantom-logo.png";
-import logo6 from "../../images/Y88JAze.png";
-import logo7 from "../../images/ChainLogo.png";
-import logo8 from "../../images/polygon.png";
-import { HiOutlineUserCircle } from "react-icons/hi";
+import DropDown from "../DropDown/DropDown";
 
 const Header = () => {
   return (
     <div>
-      <nav class="navbar bg-light">
+      <nav class="navbar bg-white">
         <div class="container-fluid d-flex flex-lg-row flex-md-row  flex-column justify-content-between align-items-center">
-          <h2 class="navbar-brand fs-3 fw-bold text-primary">Faucets</h2>
+          <Link to="/home" class="navbar-brand fs-3 fw-bold text-primary">
+            Faucets
+          </Link>
 
           <div className="d-flex flex-lg-row flex-md-row  flex-column  justify-content-between align-items-center">
             <div>
@@ -39,9 +34,7 @@ const Header = () => {
               </form>
             </div>
             <WalletModal></WalletModal>
-            <div className="ms-lg-4 my-3">
-              <HiOutlineUserCircle className="fs-1 text-secondary"></HiOutlineUserCircle>
-            </div>
+            <DropDown></DropDown>
           </div>
         </div>
       </nav>

@@ -10,7 +10,7 @@ const Home = () => {
     console.log("Captcha value:", value);
   }
   return (
-    <section className="overflow-auto">
+    <section style={{ backgroundColor: "#edf3ff" }} className="overflow-auto">
       <div className="bg-primary text-white fw-bold p-4 fs-5 text-center">
         Notice Here
       </div>
