@@ -4,7 +4,10 @@ import Accordion from "react-bootstrap/Accordion";
 const AccordionOptions = () => {
   return (
     <div className="w-75 mx-auto my-4">
-      <h1 className="fw-bold fs-3 text-center mb-4 text-primary">
+      <h1
+        style={{ color: "#9b1fe9" }}
+        className="fw-bold fs-3 text-center mb-4 "
+      >
         Frequently Asked Questions
       </h1>
       <Accordion>
