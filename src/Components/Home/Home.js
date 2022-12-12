@@ -11,12 +11,17 @@ const Home = () => {
   }
   return (
     <section style={{ backgroundColor: "#edf3ff" }} className="overflow-auto">
-      <div className="bg-primary text-white fw-bold p-4 fs-5 text-center">
+      <div
+        style={{ backgroundColor: "#9b1fe9" }}
+        className=" text-white fw-bold p-4 fs-5 text-center"
+      >
         Notice Here
       </div>
       {/* home content */}
       <div className="m-lg-5 m-3 w-auto">
-        <h1 className="fw-3 text-primary fw-bold">Request testnet LINK</h1>
+        <h1 style={{ color: "#9b1fe9" }} className="fw-3  fw-bold">
+          Request testnet LINK
+        </h1>
         <p className="fw-bold text-secondary ">
           Get testnet LINK for an account on one of the supported blockchain{" "}
           testnets so you can <br /> create and test your own oracle and
@@ -31,12 +36,15 @@ const Home = () => {
           Kovan Link/ETH.
         </p>
         <div>
-          <label className="fw-bold fs-5 text-primary d-block">
+          <label style={{ color: "#9b1fe9" }} className="fw-bold fs-5 d-block">
             Wallet Address
           </label>
           <input className="" placeholder="Wallet Address" type="text" />
 
-          <label className="fw-bold fs-5 text-primary d-block mt-2">
+          <label
+            style={{ color: "#9b1fe9" }}
+            className="fw-bold fs-5 d-block mt-2"
+          >
             Request Type
           </label>
           <div>
@@ -53,14 +61,19 @@ const Home = () => {
               type="text"
             />
           </div>
-          {
+          <div className="CAPTCHA">
             <ReCAPTCHA
               sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
               onChange={onChange}
             />
-          }
+          </div>
         </div>
-        <button className="btn btn-primary mt-3 fw-bold">Send Request</button>
+        <button
+          style={{ backgroundColor: "#9b1fe9", color: "white" }}
+          className="btn  mt-3 fw-bold"
+        >
+          Send Request
+        </button>
 
         {/* request history */}
         <div className="mt-5">

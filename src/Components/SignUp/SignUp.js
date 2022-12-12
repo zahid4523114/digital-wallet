@@ -29,15 +29,18 @@ const SignUp = () => {
               placeholder="Password"
             />
           </Form.Group>
-          <Button
-            className="container-fluid fw-bold"
-            variant="primary"
+          <button
+            style={{ backgroundColor: "#9b1fe9", color: "white" }}
+            className="container-fluid fw-bold btn"
             type="submit"
           >
             Sign Up
-          </Button>
+          </button>
           <p className="fw-bold text-center my-3">
-            Don't have an account? <Link to="/logIn">Log In</Link>{" "}
+            Don't have an account?{" "}
+            <Link style={{ color: "#9b1fe9" }} to="/logIn">
+              Log In
+            </Link>{" "}
           </p>
           <div className="text-center fs-4">
             <span className="me-4">

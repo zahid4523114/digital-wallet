@@ -8,7 +8,11 @@ const Header = () => {
     <div>
       <nav class="navbar bg-white">
         <div class="container-fluid d-flex flex-lg-row flex-md-row  flex-column justify-content-between align-items-center">
-          <Link to="/home" class="navbar-brand fs-3 fw-bold text-primary">
+          <Link
+            to="/home"
+            style={{ color: "#9b1fe9" }}
+            class="navbar-brand fs-3 fw-bold "
+          >
             Faucets
           </Link>
 

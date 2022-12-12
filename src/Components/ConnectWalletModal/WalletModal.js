@@ -7,8 +7,9 @@ const WalletModal = () => {
   return (
     <div>
       <div
+        style={{ color: "#9b1fe9", border: "2px solid #9b1fe9" }}
         type=""
-        class="border d-flex align-items-center border-2 rounded p-2 border-primary fw-bold text-primary"
+        class=" d-flex align-items-center rounded p-2 fw-bold "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >

@@ -23,7 +23,7 @@ const Table = () => {
             <th scope="row">2</th>
             <td>10:30 AM</td>
             <td> 875</td>
-            <td>sf7s7ers4e7r7wser</td>
+            <td>sf7s7ers4e7r7ws</td>
           </tr>
           <tr>
             <th scope="row">3</th>
