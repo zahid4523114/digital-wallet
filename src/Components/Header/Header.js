@@ -6,7 +6,7 @@ import DropDown from "../DropDown/DropDown";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar bg-white">
+      <nav class="navbar bg-white p-3">
         <div class="container-fluid d-flex flex-lg-row flex-md-row  flex-column justify-content-between align-items-center">
           <Link
             to="/home"
