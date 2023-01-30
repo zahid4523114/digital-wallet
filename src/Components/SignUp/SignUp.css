@@ -1,0 +1,16 @@
+.signUp-form {
+  width: 40%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .signUp-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .signUp-form {
+    width: 60%;
+    margin: 0 auto;
+  }
+}

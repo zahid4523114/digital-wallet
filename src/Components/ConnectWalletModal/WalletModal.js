@@ -9,11 +9,12 @@ const WalletModal = () => {
       <div
         style={{ color: "#9b1fe9", border: "2px solid #9b1fe9" }}
         type=""
-        class=" d-flex align-items-center rounded p-2 fw-bold "
+        class=" d-flex align-items-center rounded p-1 fw-bold "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
-        <FaWallet></FaWallet> <span className="ms-1">Connect Wallet</span>
+        <FaWallet></FaWallet>{" "}
+        <span className="ms-1 d-lg-block d-none">Connect Wallet</span>
       </div>
       {/* <!-- Modal --> */}
       <div
